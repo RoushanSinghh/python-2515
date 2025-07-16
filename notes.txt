@@ -1,0 +1,303 @@
+30th June 2025    
+==============
+
+    -> Programming Language
+
+        Global   North  South (Regions)  
+    -> English, Hindi, Telugu etc
+
+        -> Communication for Humans
+
+    -> Programming Language
+
+        -> Communication for Computers/Machines etc
+
+        -> Python, Java, C, HTML, JS etc (Domains)  
+
+            -> Java (Banking, Enterprise etc )
+
+                -> ROBUSTNESS 
+
+                -> APPLICATIONS ARE FAST
+
+                -> SPEED OF DEVELOPMENT (SLOW)
+
+            -> Python (AI, DS, Cloud, Backend Systems etc)
+
+                -> EASINESS (SYNTAX)
+
+                -> SPEED OF DEVELOPMENT (FAST)
+
+
+    -> Programming Paradigms
+
+        -> Imperative
+
+            -> HOW TO DO SOMETHING (Python)
+
+        -> Declarative
+
+            -> WHAT TO DO (SQL)
+
+    
+    -> Programming Language Types
+
+        -> HIGH LEVEL
+
+            -> EASY TO UNDERSTAND BY USERS
+
+            -> Python is High Level Programming Language
+
+        -> LOW LEVEL
+
+            -> EASY TO UNDERSTAND BY MACHINES
+
+    -> 01010111(W) 01100101(e) 01101100 01100011 01101111 01101101 
+       01100101 00100000 01010100 01101111 00100000 01010000 
+       01111001 01110100 01101000 01101111 01101110    (Low Level/Machine Level)    
+
+       -> Embedded Systems, Networking, System Drivers, OS Level etc 
+
+    ->  print("Welcome To Python")
+
+    -> Indentation
+
+        -> Simple Java Program (Calculate Sum Of Two Numbers)
+
+            --> Main.java    
+            public class Main {
+                public static void main(String[] args) {
+                    public String a = 10;
+                    public int b = 10;
+                    public String text = "hello";
+                    int sum = a+b;
+                    System.out.println("Sum is": +sum)
+                }
+            }
+
+        -> Simple Python Program (Calculate Sum Of Two Numbers) 
+
+            --> main.py
+            a = 10
+            b = 10
+            text = "hello"
+            print("Sum is:",a+b )
+
+    -> Daily 45 Mins (9:15 AM to 10 AM)
+
+1st July 2025    
+==============
+
+    -> Python -> Author -> Guido van Rossum
+
+    -> Python 1st version - Feb 1991
+
+    -> ABC Programming Language 
+
+    -> Key Features Of Python / Why Python ?
+
+        -> Simple & Easy (Readability - Indentation(spaces))
+
+        -> Cross Platform (RUN ANYWHERE in macos / win / linux )
+
+        -> Dynamically Typed (Data we don't need to ASSIGN TYPES)
+
+        -> Versatile (Extensive Library Support)
+
+            -> DS / ML / AI : Numpy, Pandas, Tensorflow, PyTorch etc
+
+            -> Web Development : Django, Flask, FASTAPI etc 
+
+            -> Scripting / Automation: Boto3, Azure Python SDK, Web Scrapping etc
+
+            -> Desktop Applications: Tkinter, PyQT etc
+
+        -> Interpreted
+
+            -> Compiled (Java)        vs          Interpreted (Python)
+
+                -> Whole Programs                     -> Line By Line  
+                runs once
+
+                -> FAST                              -> SLOW
+
+                -> App Development is SLOW           -> App Development is FAST   
+
+                -> We need more softwares            -> Only focus is on interpreter
+                    compiler, interpreter 
+        
+        -> OOPS (Class & Objects) ( To Represent REAL WORLD ENTITIES )
+
+            -> OOPS Features
+
+                -> Inheritance    (REUSE)
+                -> Abstraction    (Hiding Implementation(Methods) ) 
+                -> Polymorphism   (Many Forms)  (NetBanking, UPI, Credit Card) 
+                -> Encapsulation  (Hiding DATA)  
+
+        -> Functional Programming Language
+
+            -> Lambda Functions / Lambda Expressions (Concise Coding)
+
+    -> Popular Applications Built Using Python ?
+
+        -> Three Tier Architecture
+
+            -> Frontend Tier (HTML,CSS,JS) (Client side tech)   --> EXECUTION ( YOUR DEVICE (your laptop) )
+            -> Backend Tier (Java, Python, Nodejs, C# )         --> EXECUTION ( SERVERS (OnPrem / Cloud) )
+            -> Database Tier (SQL(MySQL, Postgres, MS SQL etc), NOSQL(MongodDB, DynamoDB, CosmosDB etc)) --> EXECUTION ( SERVERS (OnPrem / Cloud) )
+
+2nd July 2025    
+==============
+
+    -> Python Environment (Python Runtime)
+
+    -> I have Python App, to run it we need, Python Environment.
+
+    -> Verify Python Runtime
+
+        -> python --version
+    
+    -> We can execute python code in two different modes
+
+        -> Script Mode 
+
+            -> We use files to write the code and execute
+
+            -> In real time we use Script Mode 
+
+            -> We use  (Integrated Development Environment)
+
+        -> Command Line Mode / Interactive Mode
+
+            -> we use CLI, (Command Prompt), to write the code and execute
+        
+        -> IDE 
+
+            -> VS Code (Will use this) --> Very Light Weight & Lot Of Extensions
+            -> PyCharm
+            -> Eclipse
+            -> Notepad++ 
+            -> ATOM
+            -> Sublime Text etc
+
+        -> When we write python code, we cannot use our own Language
+            we need to use what only python interpreter knows
+
+        -> Python Syntax / Python Code Rules
+
+            -> peps.python.org/pep-0008
+
+        -> In python we have keywords
+
+    -> keywords
+
+        -> Predefined reserved words, that have special meaning to python interpreter
+
+        -> We have 35 keywords
+
+3rd July 2025    
+==============
+
+    -> Version Controlling 
+
+        -> Tracking CHANGES(CODE/FILES) over a period of time
+
+        -> Git (Client) - Tracks changes inside laptop
+
+            -> git config --global user.name ravi2krishna
+            -> git config --global user.email ravi2krishna@gmail.com
+        
+        -> GitHub (Service/Server) - Tracks changes over organization level
+
+            -> Create GitHub Account 
+            -> Create Repository (Project with history)
+        
+        -> Using VS Code (Clone Repository from GitHub)
+
+            -> Write code (VS Code + Git)
+            -> Stage code (VS Code + Git)
+            -> Commit Code (VS Code + Git)
+            -> Push Code (VS Code + GitHub)
+
+7th July 2025    
+==============
+
+    -> Identifiers
+
+        -> Names 
+
+            -> Variables
+            -> Functions
+            -> Modules
+            -> Classes
+            -> Objects
+            -> Methods
+            -> etc
+
+    -> Identifiers Rules
+
+        -> Can Contain
+
+            -> Letters(a-z, A-Z)
+            -> Digits(0-9)            
+            -> UnderScore(_)
+
+        -> Should Start with
+
+            -> A letter(a-z, A-Z) or
+            -> UnderScore(_)   
+
+        -> Cannot Start with Digits
+        -> Cannot be a python keywords(def, if, class etc)        
+        -> Identifiers are case sensitive (Name, name, NAME)
+
+
+    -> Variables
+
+        -> Variables are names of Memory Locations, which are used to STORE DATA
+       
+       -> Variables allow you to
+
+            -> Manipulate Data
+            -> Access Data
+            -> Hold Data
+
+       -> Variables should follow naming conventions
+
+            ->  Identifiers Rules 
+
+       -> Java 
+
+            -> String brand = "Levis";
+            -> float ratings = 4.2f;
+            -> int price = 1600
+            -> int size = 32
+
+        -> Python (Dynamic Typing)
+        
+            -> brand = "Levis" 
+            -> ratings = 4.2
+            -> size = 32    
+
+        -> id function : prints the memory address
+
+        -> type function : prints the datatype being assigned
+
+        -> Outputs
+
+            -> print - to Output values
+
+            -> Concatenation : Combining two more more strings
+                -> + (when used with strings) 
+                -> + (when used with numbers - addition operator) 
+
+        -> Naming conventions
+
+            # ProductName --> Pascal Case (ClassNames)
+
+            # productName --> CamelCase (objectNames)
+
+            # product_name --> SnakeCase (When using variables & functions)
+
+        -> 
